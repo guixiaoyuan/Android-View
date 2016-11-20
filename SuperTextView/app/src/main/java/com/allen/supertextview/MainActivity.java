@@ -105,25 +105,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //                    @Override
 //                    public void onSuperTextViewClick() {
 //                        super.onSuperTextViewClick();
-//                        //do something
+//                        //do something for superText
 //                    }
 //
 //                    @Override
 //                    public void onLeftTopClick() {
 //                        super.onLeftTopClick();
-//                        //do something
+//                        //do something for leftTop
 //                    }
 //
 //                    @Override
 //                    public void onLeftBottomClick() {
 //                        super.onLeftBottomClick();
-//                        //do something
+//                        //do something for leftBottom
 //                    }
 //
 //                    @Override
 //                    public void onLeftBottomClick2() {
 //                        super.onLeftBottomClick2();
-//                        //do something
+//                        //do something for leftBottom2
 //                    }
 //                });
 //    }
