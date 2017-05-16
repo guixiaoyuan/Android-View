@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="state_black">#868686</color>
+    <color name="light_gray">#AFAFAF</color><!--进度条文字颜色-->
+    <color name="main_black">#333333</color>
+    <color name="text_hint_color">#DADADA</color>
+    <color name="view_divider_color">#EEEEEE</color>
+</resources>

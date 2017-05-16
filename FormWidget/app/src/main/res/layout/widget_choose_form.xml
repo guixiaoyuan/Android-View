@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:paddingBottom="24dp">
+
+    <TextView
+        android:id="@+id/tv_choose_form_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:textColor="@color/state_black"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/et_choose_form_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@null"
+        android:drawableRight="@drawable/arrow_right"
+        android:textColor="@color/main_black"
+        android:textColorHint="@color/text_hint_color"
+        android:textSize="18sp"
+        tools:ignore="RtlHardcoded" />
+
+    <View
+        style="@style/DividerLine"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
