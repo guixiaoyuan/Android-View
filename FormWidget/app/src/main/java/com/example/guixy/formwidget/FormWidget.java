@@ -15,6 +15,10 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.example.guixy.formwidget.datePicker.DatePicker;
+import com.example.guixy.formwidget.tools.DateUtil;
+import com.example.guixy.formwidget.tools.StringUtil;
+
 import static java.lang.Float.parseFloat;
 
 /**
@@ -221,6 +225,29 @@ public class FormWidget extends LinearLayout {
     public interface ContentChangeListener {
         void afterTextChanged();
     }
+
+    /**
+     * 设置本控件时间选择器
+     */
+    public void setDatePicker(final Context context) {
+        setDatePicker(context, DatePicker.NORMAL_TYPE);
+    }
+
+    public void setDatePicker(final Context context, final int type) {
+        this.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                new DatePicker(context, type, getContent(),
+                        new DatePicker.OnSelectDateListener() {
+                            @Override
+                            public void onDateSelected(String dateString) {
+                                etChooseFormContent.setText(dateString);
+                            }
+                        }).show();
+            }
+        });
+    }
+
 
     /**
      * 设置是否让子控件接收触摸事件

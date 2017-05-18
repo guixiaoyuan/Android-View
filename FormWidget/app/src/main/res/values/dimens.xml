@@ -1,0 +1,7 @@
+<resources>
+
+    <dimen name="normal_padding">32dp</dimen>
+    <dimen name="normal_small_padding">16dp</dimen>
+    <dimen name="card_width">80dp</dimen>
+    <dimen name="dialog_width">538dp</dimen>
+</resources>

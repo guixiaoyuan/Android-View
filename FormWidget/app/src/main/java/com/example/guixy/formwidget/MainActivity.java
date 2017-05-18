@@ -3,6 +3,8 @@ package com.example.guixy.formwidget;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.example.guixy.formwidget.datePicker.DatePicker;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
@@ -19,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mUnbinder = ButterKnife.bind(this);
+        mFormWidget.setDatePicker(this, DatePicker.CARD_EXPIRY_TYPE);
     }
 
     @Override
