@@ -16,13 +16,13 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.form_widget_date)
     FormWidget mDateFormWidget;
 
-    private Unbinder mUnbinder;
+    private Unbinder mUnBinder;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mUnbinder = ButterKnife.bind(this);
+        mUnBinder = ButterKnife.bind(this);
         mFormWidget.setDatePicker(this, DatePicker.CARD_EXPIRY_TYPE);
         mDateFormWidget.setDatePicker(this);
     }
@@ -35,8 +35,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        if (mUnbinder != null) {
-            mUnbinder.unbind();
+        if (mUnBinder != null) {
+            mUnBinder.unbind();
         }
     }
 }
