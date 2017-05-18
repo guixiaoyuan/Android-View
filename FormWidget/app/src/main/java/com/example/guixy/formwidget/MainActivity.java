@@ -13,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
 
     @BindView(R.id.form_widget)
     FormWidget mFormWidget;
+    @BindView(R.id.form_widget_date)
+    FormWidget mDateFormWidget;
 
     private Unbinder mUnbinder;
 
@@ -22,12 +24,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mUnbinder = ButterKnife.bind(this);
         mFormWidget.setDatePicker(this, DatePicker.CARD_EXPIRY_TYPE);
+        mDateFormWidget.setDatePicker(this);
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        mFormWidget.setContent("36042619940709");
     }
 
     @Override
