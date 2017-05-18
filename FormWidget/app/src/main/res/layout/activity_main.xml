@@ -13,7 +13,7 @@
         android:layout_marginTop="@dimen/normal_padding"
         android:padding="16dp"
         app:editable="false"
-        app:hint="请填写身份证年限"
+        app:hint="请填写身份证有效期"
         app:title="身份证年限"/>
 
     <com.example.guixy.formwidget.FormWidget
