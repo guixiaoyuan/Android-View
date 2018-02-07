@@ -5,15 +5,15 @@
 <div  align="center">    
 <img src="https://github.com/guixiaoyuan/Android-View/blob/master/SuperTextView/screenshot.png" width = "360" height = "640" alt="效果图" align=center /></div>
 
-![](https://github.com/guixiaoyuan/Android-View/blob/master/SuperTextView/screenshot.png)
+https://github.com/guixiaoyuan/Android-View/blob/master/SuperTextView/type1.png
 
 <div  align="center">    
-<img src="https://github.com/guixiaoyuan/Android-View/tree/master/SuperTextView/type1.png" width = "270" height = "480" alt="效果图" align=center />
-<img src="https://github.com/guixiaoyuan/Android-View/tree/master/SuperTextView/type2.png" width = "270" height = "480" alt="效果图" align=center />
-<img src="https://github.com/guixiaoyuan/Android-View/tree/master/SuperTextView/type3.png" width = "270" height = "480" alt="效果图" align=center />
-<img src="https://github.com/guixiaoyuan/Android-View/tree/master/SuperTextView/type4.png" width = "270" height = "480" alt="效果图" align=center />
-<img src="https://github.com/guixiaoyuan/Android-View/tree/master/SuperTextView/type5.png" width = "270" height = "480" alt="效果图" align=center />
-<img src="https://github.com/guixiaoyuan/Android-View/tree/master/SuperTextView/type6.png" width = "270" height = "480" alt="效果图" align=center />
+<img src="https://github.com/guixiaoyuan/Android-View/blob/master/SuperTextView/type1.png" width = "270" height = "480" alt="效果图" align=center />
+<img src="https://github.com/guixiaoyuan/Android-View/blob/master/SuperTextView/type2.png" width = "270" height = "480" alt="效果图" align=center />
+<img src="https://github.com/guixiaoyuan/Android-View/blob/master/SuperTextView/type3.png" width = "270" height = "480" alt="效果图" align=center />
+<img src="https://github.com/guixiaoyuan/Android-View/blob/master/SuperTextView/type4.png" width = "270" height = "480" alt="效果图" align=center />
+<img src="https://github.com/guixiaoyuan/Android-View/blob/master/SuperTextView/type5.png" width = "270" height = "480" alt="效果图" align=center />
+<img src="https://github.com/guixiaoyuan/Android-View/blob/master/SuperTextView/type6.png" width = "270" height = "480" alt="效果图" align=center />
 </div>
 # 基本使用
 ### 1.添加Gradle依赖 
@@ -176,7 +176,7 @@
 * 功能强大的TextView
 
 # 意见反馈
-如果遇到问题或者好的建议，请反馈到我的邮箱：lygttpod@163.com 或者lygttpod@gmail.com
+如果遇到问题或者好的建议，请反馈到我的邮箱：463316523@qq.com 或者guixiaoyaun@gmail.com
 
 如果觉得对你有用的话，点一下右上的星星赞一下吧!
 
