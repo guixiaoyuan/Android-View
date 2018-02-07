@@ -4,6 +4,9 @@
 # 效果图
 <div  align="center">    
 <img src="https://github.com/guixiaoyuan/Android-View/tree/master/SuperTextView/screenshot.png" width = "360" height = "640" alt="效果图" align=center /></div>
+
+![](https://github.com/guixiaoyuan/Android-View/tree/master/SuperTextView/screenshot.png)
+
 <div  align="center">    
 <img src="https://github.com/guixiaoyuan/Android-View/tree/master/SuperTextView/type1.png" width = "270" height = "480" alt="效果图" align=center />
 <img src="https://github.com/guixiaoyuan/Android-View/tree/master/SuperTextView/type2.png" width = "270" height = "480" alt="效果图" align=center />
