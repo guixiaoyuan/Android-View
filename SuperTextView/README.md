@@ -1,26 +1,26 @@
 # SuperTextView
 一个功能强大的TextView，可以满足日常大部分布局方式，开发者可已自行组合属性配置出属于自己风格的样式!
 
-#效果图
+# 效果图
 <div  align="center">    
-<img src="https://github.com/lygttpod/SuperTextView/blob/master/screenshot.png" width = "360" height = "640" alt="效果图" align=center /></div>
+<img src="https://github.com/guixiaoyuan/Android-View/tree/master/SuperTextView/screenshot.png" width = "360" height = "640" alt="效果图" align=center /></div>
 <div  align="center">    
-<img src="https://github.com/lygttpod/SuperTextView/blob/master/type1.png" width = "270" height = "480" alt="效果图" align=center />
-<img src="https://github.com/lygttpod/SuperTextView/blob/master/type2.png" width = "270" height = "480" alt="效果图" align=center />
-<img src="https://github.com/lygttpod/SuperTextView/blob/master/type3.png" width = "270" height = "480" alt="效果图" align=center />
-<img src="https://github.com/lygttpod/SuperTextView/blob/master/type4.png" width = "270" height = "480" alt="效果图" align=center />
-<img src="https://github.com/lygttpod/SuperTextView/blob/master/type5.png" width = "270" height = "480" alt="效果图" align=center />
-<img src="https://github.com/lygttpod/SuperTextView/blob/master/type6.png" width = "270" height = "480" alt="效果图" align=center />
+<img src="https://github.com/guixiaoyuan/Android-View/tree/master/SuperTextView/type1.png" width = "270" height = "480" alt="效果图" align=center />
+<img src="https://github.com/guixiaoyuan/Android-View/tree/master/SuperTextView/type2.png" width = "270" height = "480" alt="效果图" align=center />
+<img src="https://github.com/guixiaoyuan/Android-View/tree/master/SuperTextView/type3.png" width = "270" height = "480" alt="效果图" align=center />
+<img src="https://github.com/guixiaoyuan/Android-View/tree/master/SuperTextView/type4.png" width = "270" height = "480" alt="效果图" align=center />
+<img src="https://github.com/guixiaoyuan/Android-View/tree/master/SuperTextView/type5.png" width = "270" height = "480" alt="效果图" align=center />
+<img src="https://github.com/guixiaoyuan/Android-View/tree/master/SuperTextView/type6.png" width = "270" height = "480" alt="效果图" align=center />
 </div>
-#基本使用
-###1.添加Gradle依赖 
+# 基本使用
+### 1.添加Gradle依赖 
  
         dependencies {
         ...
         compile 'com.allen.supertextview:supertextview:1.0.1'
         }
 
-###2.布局中如何使用
+### 2.布局中如何使用
         <com.allen.supertextviewlibrary.SuperTextView
                 android:id="@+id/super_tv"
                 android:layout_width="match_parent"
@@ -37,7 +37,7 @@
         注意：
                 1、上下的线可以通过   sLineShow 设置  有四种显示方式 none，top，bottom，both
                 2、通过设置 sUseRipple=true 开启水波效果
-###3.代码中如何使用
+### 3.代码中如何使用
        /**
      * 可以通过链式设置大部分常用的属性值
      */
@@ -84,7 +84,7 @@
                     }
                 });
           
-###4.点击事件（可根据需求选择实现某个点击事件）
+### 4.点击事件（可根据需求选择实现某个点击事件）
         superTextView.setOnSuperTextViewClickListener(new SuperTextView.OnSuperTextViewClickListener() {
                     @Override
                     public void onSuperTextViewClick() {
@@ -111,7 +111,7 @@
                     }
                 });
 
-###5.属性说明(以下属性全部可以通过xml文件配置和代码进行设置)
+### 5.属性说明(以下属性全部可以通过xml文件配置和代码进行设置)
         <declare-styleable name="SuperTextView">
         <attr name="sLeftIconRes" format="reference"/>
         <attr name="sRightIconRes" format="reference"/>
@@ -168,16 +168,16 @@
 
     </declare-styleable> 
     
-#更新日志
+# 更新日志
 ### V1.0.0
 * 功能强大的TextView
 
-#意见反馈
+# 意见反馈
 如果遇到问题或者好的建议，请反馈到我的邮箱：lygttpod@163.com 或者lygttpod@gmail.com
 
 如果觉得对你有用的话，点一下右上的星星赞一下吧!
 
-#License
+# License
          Copyright 2016 Allen
 
         Licensed under the Apache License, Version 2.0 (the "License");
